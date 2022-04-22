@@ -1,0 +1,99 @@
+:root {
+    --main-text-color: rgba(85, 85, 85, 1);
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+/* Общие стили */
+body {
+    /* background-color: rgba(255, 255, 255, 1); */
+    background-color: teal;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 400px;
+    font-size: 18px;
+    color: var(--main-text-color);
+    letter-spacing: 0.02em;
+}
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    width: 1310px;
+    outline: 2px solid tomato;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Футтер */
+.conteiner.head {
+        display: flex;
+        text-align: center;
+        /* padding-top: 52px; */
+}
+
+
+.list.nav {
+    display: flex;
+    margin-left: 40px;
+}
+.list-nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+.button.first {
+    margin-left: 40px;
+}
+.phone {
+    display: flex;
+    margin-left: auto;
+}
+
+.link-nav {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.1em;
+}
+.link-nav:hover,
+.link-nav:focus {
+    color: rgba(255, 108, 0, 1);
+}
+.button {
+    min-width: 160px;
+    padding: 12px 20px;
+    
+    font-family: 600px;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+    border: 1px solid rgba(255, 108, 0, 1);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid rgb(205, 32, 32);
+    color: rgb(205, 32, 32);
+}
