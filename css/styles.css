@@ -1,5 +1,5 @@
 :root {
-	--main-text-color: rgba(85, 85, 85, 1);
+	--main-text-color: #555555;
 	--link-text-color: #ffffff;
 	--accent-color: rgba(255, 108, 0, 1);
 }
@@ -42,7 +42,7 @@ body {
 
 .conteiner {
 	width: 1200px;
-	/* outline: 2px solid tomato; */
+	outline: 2px solid tomato;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
@@ -123,7 +123,6 @@ body {
 }
 /*---------------------------- Секция герой-------------------- */
 .hero-section {
-	padding-bottom: 130px;
 }
 .social-links {
 	display: flex;
@@ -204,5 +203,135 @@ body {
 }
 /* ----------------О нас------------------------------ */
 .about {
+	padding-top: 130px;
 	padding-bottom: 130px;
+}
+.flex-about {
+	display: flex;
+}
+.photo-about {
+	display: flex;
+	margin-right: 64px;
+}
+.item-photo:not(:last-child) {
+	margin-right: 30px;
+}
+.about-description {
+	width: 500px;
+}
+.about-appertitle {
+	margin-bottom: 20px;
+
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+
+	color: #303030;
+}
+.about-title {
+	margin-bottom: 20px;
+
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.17;
+	letter-spacing: 0.05em;
+	color: #303030;
+}
+.about-text {
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: var(--main-text-color);
+}
+.about-team {
+	margin-bottom: 40px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.86;
+	letter-spacing: 0.02em;
+	color: #555555;
+}
+/* -----------------Услуги и цены---------------- */
+.price-section {
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
+.price-uppertitle {
+	margin-bottom: 20px;
+
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 1.36;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: rgba(157, 164, 189, 0.6);
+}
+.price-title {
+	margin-bottom: 44px;
+
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.17;
+	letter-spacing: 0.05em;
+
+	color: var(--link-text-color);
+}
+.flex-list {
+	display: flex;
+	margin-bottom: 50px;
+}
+.price-list {
+	padding: 30px 40px;
+	width: 585px;
+	outline: 3px solid red;
+}
+.price-auxiliary {
+	padding: 30px 40px;
+	width: 585px;
+	outline: 3px solid red;
+}
+.item-price {
+	margin-bottom: 20px;
+
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+
+	color: #9da4bd;
+}
+.item-price:last-child {
+	margin-bottom: 0;
+}
+.price-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+
+	padding: 30px 40px;
+	width: 585px;
+	outline: 3px solid red;
+}
+.auxiliary {
+	display: flex;
+	flex-direction: column;
+
+	padding: 30px 40px;
+	width: 585px;
+	outline: 3px solid red;
+}
+
+.iouyt {
+	display: flex;
 }
