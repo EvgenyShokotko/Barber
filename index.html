@@ -12,6 +12,7 @@
 </head>
 <body>
     <!-- Шапка (логотип, навигация) -->
+    <div class="background-image">
     <header class="header">
         <div class="conteiner header-conteiner">
         <a class="logo" href="index.html" aria-label="логотип сайта">
@@ -52,6 +53,7 @@
             </ul>
             </div>
         </section>
+        </div>
         <!-- О нас -->
         <section class="about">
             <div class="conteiner flex-about">
@@ -77,148 +79,226 @@
         </section>
         <!-- Услуги и цены -->
         <section class="price-section">
-            <div class="conteiner">
+            <div class="conteiner price-conteiner">
             <p class="price-uppertitle">Проведи время в компании лучших мастеров</p>
             <h2 class="price-title">Услуги и цены</h2>
-            <!-- <div class="flex-list">
-              <ul class="list price-list">
-                        <li class="item-price" >Мужская стрижка от 300 грн.</li>
-                        <li class="item-price" >Стрижка бороды от 200 грн.</li>
-                        <li class="item-price" >Стрижка усов от 200 грн.</li>
-                        <li class="item-price" >Бритье опасной бритвой от 200 грн.</li>
-                    </ul>
-                    <ul class="list price-auxiliary">
-                        <li class="item-price" >Cтрижка у стажера от 50 грн.</li>
-                        <li class="item-price" >Стрижка под насадку от 200 грн.</li>
-                        <li class="item-price" >Детская стрижка (до 12 лет) от 300 грн.</li>
-                        <li class="item-price" >Камуфлирование седины от 200 грн.</li>
-                    </ul>
-                   </div> -->
-             <ul class="list iouyt">
+             <ul class="list main-price-list">
                 <li>
-                    <ul class="list main">
-                        <li class="item-price">Мужская стрижка от 300 грн.</li>
-                        <li class="item-price">Стрижка бороды от 200 грн.</li>
-                        <li class="item-price">Стрижка усов от 200 грн.</li>
-                        <li class="item-price">Бритье опасной бритвой от 200 грн.</li>
+                    <ul class="list price-list">
+                        <li class="item-price">
+                            <span class="price-description">Мужская стрижка</span>
+                            <div class="line"></div> 
+                            <span class="price-summ">от 300 грн.</span>
+                        </li>
+                        <li class="item-price">
+                            <span class="price-description">Стрижка бороды</span> 
+                            <div class="line"></div> 
+                            <span class="price-summ">от 200 грн.</span>
+                        </li>
+                        <li class="item-price">
+                            <span class="price-description">Стрижка усов</span> 
+                            <div class="line"></div> 
+                            <span class="price-summ">от 200 грн.</span>
+                        </li>
+                        <li class="item-price">
+                            <span class="price-description">Бритье опасной бритвой</span> 
+                            <div class="line"></div> 
+                            <span class="price-summ">от 200 грн.</span>
+                        </li>
                     </ul>
                 </li>
                 <li>
-                    <ul class="list auxiliary">
-                        <li class="item-price">Cтрижка у стажера от 50 грн.</li>
-                        <li class="item-price">Стрижка под насадку от 200 грн.</li>
-                        <li class="item-price">Детская стрижка (до 12 лет) от 300 грн.</li>
-                        <li class="item-price">Камуфлирование седины от 200 грн.</li>
+                    <ul class="list second-price-list">
+                        <li class="item-price">
+                            <span class="price-description">Cтрижка у стажера</span> 
+                            <div class="line"></div> 
+                            <span class="price-summ">от 50 грн.</span>
+                        </li>
+                        <li class="item-price">
+                            <span class="price-description">Стрижка под насадку</span> 
+                            <div class="line"></div> 
+                            <span class="price-summ">от 200 грн.</span>
+                        </li>
+                        <li class="item-price">
+                            <span class="price-description">Детская стрижка (до 12 лет)</span> 
+                            <div class="line"></div> 
+                            <span class="price-summ">от 300 грн.</span>
+                        </li>
+                        <li class="item-price">
+                            <span class="price-description">Камуфлирование седины</span> 
+                            <div class="line"></div> 
+                            <span class="price-summ">от 200 грн.</span>
+                        </li>
                     </ul>
                 </li>
             </ul>
 
-            <div class="price-btn">
+            <div class="price-btn-flex">
             <button class="btn" type="button">онлайн-запись</button>
         </div>    
         </div>
 
         </section>
         <!-- Наши преимщества -->
-        <section>
-            <div class="conteiner">
-            <ul class="list">
-                <li>
-                    <p>600 <sup>+</sup></p>
-                    <p>Довольных клиентов в день</p>
+        <section class="benefit-section">
+            <div class="conteiner flex-benefit">
+            <ul class="list benefit-bloc">
+                <li class="benefit-item">
+                    <p class="benefit-number">600<sup class="benefit-decor">+</sup></p>
+                    <p class="benefit-number-description">Довольных клиентов в день</p>
                 </li>
-                <li>
-                    <p>20 <sup>+</sup></p>
-                    <p>Лучших мастеров Киева</p>
+                <li class="benefit-item">
+                    <p class="benefit-number">20<sup class="benefit-decor">+</sup></p>
+                    <p class="benefit-number-description">Лучших мастеров Киева</p>
                 </li>
-                <li>
-                    <p>50 <sup>+</sup></p>
-                    <p>Наград за отличный сервис</p>
+                <li class="benefit-item">
+                    <p class="benefit-number">50<sup class="benefit-decor">+</sup></p>
+                    <p class="benefit-number-description">Наград за отличный сервис</p>
                 </li>
-                <li>
-                    <p>100 <sup>+</sup></p>
-                    <p>Подарков постоянным клиентам</p>
+                <li class="benefit-item">
+                    <p class="benefit-number">100<sup class="benefit-decor">+</sup></p>
+                    <p class="benefit-number-description lust">Подарков постоянным клиентам</p>
                 </li>
             </ul>
-            <div>
-                <p>старая традиционная школа</p>
-                <h2>Почему приходят именно к нам?</h2>
-                <p>О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
+            <div class="benefit-description">
+                <p class="benefit-uppertitle">старая традиционная школа</p>
+                <h2 class="benefit-title">Почему приходят именно к нам?</h2>
+                <p class="benefit-subtitle">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
             </div>
             </div>
         </section>
         <!-- Наши мастера -->
-        <section>
+        <section class="team-section">
             <div class="conteiner">
-            <p>для настоящих ценителей атмосферы</p>
-            <h2>Наши мастера</h2>
-            <ul class="list">
-                <li>
-                    <img src="./image/worker-1.jpg" alt="сотрудник парихмакерской" width="370" height="346">
-                    <h3 lang="en">John Smith</h3>
-                    <p lang="en">Extreme Barber</p>
-                    <ul class="list">
-                        <li>
-                            <a href="https://www.instagram.com" aria-label="логотип инсты">
-                            <img src="./image/logo/instagram.svg" alt="логотип инсты" width="44" height="44"></a>
+            <p class="team-uppertitle">для настоящих ценителей атмосферы</p>
+            <h2 class="team-title">Наши мастера</h2>
+            <ul class="list team-list">
+                <li class="team-item">
+                    <img class="team-photo" src="./image/worker-1.jpg" alt="сотрудник парихмакерской" width="370" height="346">
+                    <h3 class="team-name" lang="en">John Smith</h3>
+                    <p class="team-profesion" lang="en">Extreme Barber</p>
+                    <ul class="list social-list">
+                        <li class="social-item">
+                            <a class="social-link" href="https://www.instagram.com" 
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
                         </li>
-                        <li>
-                            <a href="https://twitter.com" aria-label="логотип твиттер">
-                            <img src="./image/logo/twitter.svg" alt="логотип твиттер" width="44" height="44"></a>
+                        <li class="social-item">
+                            <a class="social-link" href="https://twitter.com" 
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-twitter"></use>
+                                </svg>
+                        </a>
                         </li>
-                        <li>
-                            <a href="https://m.facebook.com" aria-label="логотип фейсбук">
-                            <img src="./image/logo/facebook.svg" alt="логотип фейсбук" width="44" height="44"></a>
+                        <li class="social-item">
+                            <a class="social-link" href="https://m.facebook.com"  
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-facebook"></use>
+                                </svg>
+                        </a>
                         </li>
-                        <li>
-                            <a href="https://ru.linkedin.com" aria-label="логотип линкделин">
-                            <img src="./image/logo/linkedin.svg" alt="логотип линкделин" width="44" height="44"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./image/worker-2.jpg" alt="сотрудник парихмакерской" width="370" height="346">
-                    <h3 lang="en">Michele Doe</h3>
-                    <p lang="en">Extreme Barber</p>
-                    <ul class="list">
-                        <li>
-                            <a href="https://www.instagram.com" aria-label="логотип инсты">
-                                <img src="./image/logo/instagram.svg" alt="логотип инсты" width="44" height="44"></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com" aria-label="логотип твиттер">
-                                <img src="./image/logo/twitter.svg" alt="логотип твиттер" width="44" height="44"></a>
-                        </li>
-                        <li>
-                            <a href="https://m.facebook.com" aria-label="логотип фейсбук">
-                                <img src="./image/logo/facebook.svg" alt="логотип фейсбук" width="44" height="44"></a>
-                        </li>
-                        <li>
-                            <a href="https://ru.linkedin.com" aria-label="логотип линкделин">
-                                <img src="./image/logo/linkedin.svg" alt="логотип линкделин" width="44" height="44"></a>
+                        <li class="social-item">
+                            <a class="social-link" href="https://ru.linkedin.com"
+                            target="_blank"                             
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-linkedin"></use>
+                                </svg>
+                        </a>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <img src="./image/worker-3.jpg" alt="сотрудник парихмакерской" width="370" height="346">
-                    <h3 lang="en">Alan Black</h3>
-                    <p lang="en">Extreme Barber</p>
-                    <ul class="list">
-                        <li>
-                            <a href="https://www.instagram.com" aria-label="логотип инсты">
-                                <img src="./image/logo/instagram.svg" alt="логотип инсты" width="44" height="44"></a>
+                <li class="team-item">
+                    <img class="team-photo" src="./image/worker-2.jpg" alt="сотрудник парихмакерской" width="370" height="346">
+                    <h3 class="team-name" lang="en">Michele Doe</h3>
+                    <p class="team-profesion" lang="en">Extreme Barber</p>
+                   <ul class="list social-list">
+                        <li class="social-item">
+                            <a class="social-link" href="https://www.instagram.com" 
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
                         </li>
-                        <li>
-                            <a href="https://twitter.com" aria-label="логотип твиттер">
-                                <img src="./image/logo/twitter.svg" alt="логотип твиттер" width="44" height="44"></a>
+                        <li class="social-item">
+                            <a class="social-link" href="https://twitter.com" 
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-twitter"></use>
+                                </svg>
+                        </a>
                         </li>
-                        <li>
-                            <a href="https://m.facebook.com" aria-label="логотип фейсбук">
-                                <img src="./image/logo/facebook.svg" alt="логотип фейсбук" width="44" height="44"></a>
+                        <li class="social-item">
+                            <a class="social-link" href="https://m.facebook.com"  
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-facebook"></use>
+                                </svg>
+                        </a>
                         </li>
-                        <li>
-                            <a href="https://ru.linkedin.com" aria-label="логотип линкделин">
-                                <img src="./image/logo/linkedin.svg" alt="логотип линкделин" width="44" height="44"></a>
+                        <li class="social-item">
+                            <a class="social-link" href="https://ru.linkedin.com"
+                            target="_blank"                             
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-linkedin"></use>
+                                </svg>
+                        </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="team-item">
+                    <img class="team-photo" src="./image/worker-3.jpg" alt="сотрудник парихмакерской" width="370" height="346">
+                    <h3 class="team-name" lang="en">Alan Black</h3>
+                    <p class="team-profesion" lang="en">Extreme Barber</p>
+                   <ul class="list social-list">
+                        <li class="social-item">
+                            <a class="social-link" href="https://www.instagram.com" 
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://twitter.com" 
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-twitter"></use>
+                                </svg>
+                        </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://m.facebook.com"  
+                            target="_blank"
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-facebook"></use>
+                                </svg>
+                        </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link" href="https://ru.linkedin.com"
+                            target="_blank"                             
+                            rel="noreferrer noopener">
+                                <svg class="social-svg" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-linkedin"></use>
+                                </svg>
+                        </a>
                         </li>
                     </ul>
                 </li>
@@ -226,21 +306,21 @@
             </div>
         </section>
         <!-- Галерея -->
-        <section>
+        <section class="galery-section">
             <div class="conteiner">
             <h2 hidden>Галерея</h2>
-            <p>На латинском языке “барба” означает “борода”</p>
-            <ul class="list">
-                <li>
+            <p class="galery-uppertitle">На латинском языке “барба” означает “борода”</p>
+            <ul class="list galery-list">
+                <li class="galery-item">
                     <img src="./image/rectangle-1.jpg" alt="стрижка головы" width="270" height="360">
                 </li>
-                <li>
+                <li class="galery-item">
                     <img src="./image/rectangle-2.jpg" alt="бритье лица опасной бритвой" width="270" height="360">
                 </li>
-                <li>
+                <li class="galery-item">
                     <img src="./image/rectangle-3.jpg" alt="обтирание полотенцем лица после бритья" width="270" height="360">
                 </li>
-                <li>
+                <li class="galery-item">
                     <img src="./image/rectangle-4.jpg" alt="оконтовка" width="270" height="360">
                 </li>
             </ul>
