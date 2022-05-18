@@ -65,9 +65,13 @@ body {
 }
 /*-------------Логотип и навигация-------------- */
 .background-image {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	transform: translate(-45%);
 	height: 680px;
-	width: 1200px;
-	outline: 2px solid tomato;
+	width: 1125px;
+	z-index: 0;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
@@ -76,13 +80,24 @@ body {
 	background-image: url(../image/top-fon.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
+}
+
+.header {
+
+
+	/* background-color: #191c26; */
 }
 .conteiner.header-conteiner {
+	
 	display: flex;
 	align-items: center;
+
+	
 }
 .logo {
+	z-index: 100;
+
 	margin-right: 71px;
 }
 .list.navigation {
@@ -90,6 +105,7 @@ body {
 	align-items: center;
 }
 .item-navigation {
+	z-index: 100;
 }
 .item-navigation:not(:last-child) {
 	margin-right: 40px;
@@ -118,6 +134,7 @@ body {
 	align-items: center;
 }
 .link-phone {
+	z-index: 100;
 	display: block;
 	margin-right: 40px;
 	padding-top: 52px;
@@ -131,7 +148,7 @@ body {
 	color: var(--link-text-color);
 }
 
-.btn {
+.btn {	z-index: 100;
 	padding: 12px 20px;
 	max-width: 200px;
 	min-width: 160px;
@@ -154,27 +171,59 @@ body {
 }
 /*---------------------------- Секция герой-------------------- */
 .hero-section {
+/* 
+	background-color: #191c26; */
+}
+.hero-conteiner {
+	position: relative;
+	/* background-color: #988787; */
+
 }
 .social-links {
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	display: flex;
+	align-items: baseline;
+    transform: rotate(-90deg) translateX(150px) translateY(-90px);
+
+
 }
 .item-social:not(:last-child) {
 	margin-right: 40px;
 }
+
+.item-social.line {
+	width: 60px;
+	height: 1px;
+	display: block;
+	border-color: #ff6c00;
+	background-color: #ff6c00;
+	margin-right: 40px;
+}
+
+
 .link-social {
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
 	font-weight: 600;
 	font-size: 11px;
 	line-height: 1.36;
 	letter-spacing: 0.2em;
 	color: #303030;
+	
 }
 .link-social:hover,
 .link-social:focus {
 	color: var(--accent-color);
 }
 .hero-description {
-	width: 476px;
-	margin-left: 100px;
+	padding-top: 184px;
+	padding-bottom: 206px;
+	/* width: 476px; */
+	padding-left: 255px;
 }
 .uppertitle {
 	margin-bottom: 20px;
@@ -208,9 +257,16 @@ body {
 
 .btn-group {
 	display: flex;
+	position: absolute;
+	bottom: 50px;
+	right: 40px;
 }
 .item-btn:not(:last-child) {
 	margin-right: 26px;
+}
+.item-btn {
+
+
 }
 .btn-navigation.back {
 	color: rgba(157, 164, 189, 0.6);
